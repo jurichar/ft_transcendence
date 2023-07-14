@@ -24,22 +24,44 @@
 
 ## Context
 
+This project consists of creating a website to take part in a competition of the famous game Pong!
+
 ## Goal
 
 ## Features
 
-The key features of the app include:
+### This application boasts an array of unique features:
 
-- Real-time text messaging
-- User account management
-- Offline message history
+- A live Pong game for real-time entertainment.
+- A matchmaking system to find suitable opponents for games.
+- Real-time text messaging for immediate communication.
+- Access to other users' profiles for better social interaction.
+- A friends list feature for each user to keep track of their contacts.
+- Comprehensive match history for users to review past games.
+- Real-time statistics for users to monitor their performance.
+- User account management for personalized settings and preferences.
+
+### Further enhancing the user experience, the application also provides:
+
+- Personalizable game themes for a customized gaming experience.
+- Designated channels for text messaging to categorize conversations.
+- Administrative privileges for users over their channels.
+- The ability for users to initiate Pong games by sending invites within channels.
+- A user blocking system for privacy and safety.
+- Password encryption to ensure the security of user data.
+- Two-Factor Authentication (2FA) with options for Google or text message verification.
+- Protection against SQL injection attacks for enhanced security.
+- Alternative login options through 42 Intra or Discord.
+- Full responsive design for optimal user experience on any device.
 
 ## Technologies Used
 
-- VueJS for the front-end part
+- Vue 3 for the front-end part
 - NestJS for the back-end part
 - PostgreSQL for database
-
+- 42's + Discord API for the auth
+- Docker to build the whole project
+  
 ## Installation
 
 To install the project on your local machine:
