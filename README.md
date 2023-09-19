@@ -1,20 +1,24 @@
-# Project Title
+# ft_transcendence - 42 School Project
 
-<div align="center">
-  <img src="main-image-url" alt="Project image">
-</div>
+![presentation](./images/presentation.png)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/jurichar/ft_transcendence)
-![GitHub stars](https://img.shields.io/github/stars/jurichar/ft_transcendence)
-![GitHub forks](https://img.shields.io/github/forks/jurichar/ft_transcendence)
-![License](https://img.shields.io/github/license/jurichar/ft_transcendence)
+![GitHub repo size](https://img.shields.io/github/repo-size/jurichar/ft_transcendence)
+![GitHub last commit](https://img.shields.io/github/last-commit/davidarbib/ft_transcendence)
+![GitHub stars](https://img.shields.io/github/stars/davidarbib/ft_transcendence)
+
+---
+
+![VueJS](https://img.shields.io/badge/-Vue-4FC08D?logo=vue.js&logoColor=white&style=flat)
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?logo=nestjs&logoColor=white&style=flat)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?logo=postgresql&logoColor=white&style=flat)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)
+![42 Paris](https://img.shields.io/badge/-42-000000?logo=42&logoColor=white&style=flat)
 
 ---
 
 ## Table of Contents
 
 - [Context](#context)
-- [Goal](#goal)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -26,11 +30,9 @@
 
 This project consists of creating a website to take part in a competition of the famous game Pong!
 
-## Goal
-
 ## Features
 
-### This application boasts an array of unique features:
+### This application boasts an array of unique features
 
 - A live Pong game for real-time entertainment.
 - A matchmaking system to find suitable opponents for games.
@@ -41,7 +43,7 @@ This project consists of creating a website to take part in a competition of the
 - Real-time statistics for users to monitor their performance.
 - User account management for personalized settings and preferences.
 
-### Further enhancing the user experience, the application also provides:
+### Further enhancing the user experience, the application also provides
 
 - Personalizable game themes for a customized gaming experience.
 - Designated channels for text messaging to categorize conversations.
@@ -68,8 +70,12 @@ To install the project on your local machine:
 
 1. Clone the repository
 2. Open it in your IDE
-3. Add you .env file
-4. Build the project
+3. Add you .env file to backend/src folder
+4. Build the project with Docker
+  
+  ```bash
+  docker-compose up --build
+  ```
 
 ## Usage
 
@@ -81,16 +87,27 @@ To use the app:
 
 ## Screenshots
 
-<div align="center">
-  <img src="screenshot-url" alt="Screenshot of the app">
-</div>
+### Sign in with 42 Intra or Discord
 
-## License
+![signin_with](./images/signin_with.gif)
 
-This project is licensed under the terms of the MIT license.
+### Theme selection and matchmaking
+
+![theme_matchmaking](./images/theme_matchmaking.gif)
+
+### 2FA and modifying profile picture
+
+![2fa_change_pic](./images/2fa_change_pic.gif)
+
+### Chat, create channels, invite participants to play pong
+
+![chat_matchmaking](./images/chat_matchmaking.gif)
+
+## Contirbutors
+
+- [Julien Richard](https://github.com/jurichar)
+- [Mélanie Pochard](https://github.com/m3L4n)
+- [Maxime Crespo](https://github.com/macrespo42)
+- [David Arbib](https://github.com/davidarbib)
 
 ---
-
-<div align="center">
-  <b>End of Document</b><br>
-</div>
